@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.mainblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-align: center;
+}
+body{
+    background-color: #999;
+}
+.root{
+    font-size: 90px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.5s;
+}
+.hope{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    transition: 0.5s;
+}
+p:hover{
+    color: rgb(61, 60, 121);
+}
+.root:hover{
+    color: white;
+}
+.root p::before{
+    content: "~";
+}
+.root p::after{
+    content: "~";
+}
+.group1{
+    background-color: rgb(43, 41, 41);
+}
+.group1 img{
+    padding: 40px;
+}
+.group2{
+    background-color:rgb(43, 41, 41);
+}
+.group2 img{
+    padding: 40px;
+}
+.group3{
+    background-color: rgb(43, 41, 41);
+}
+.group3 img{
+    padding: 40px;
+    transition: 0.5s;
+}
+.group3 img:hover{
+    transform: scale(0.95);
+}
+.group1 img{
+    padding: 40px;
+    transition: 0.5s;
+}
+.group1 img:hover{
+    transform: scale(0.95);
+}
+.group2 img{
+    padding: 40px;
+    transition: 0.5s;
+}
+.group2 img:hover{
+    transform: scale(0.95);
+}
+@media screen and (width:800px){
+    div{
+        font-size: 5px;
+
+    }
+    img{
+        width: 10%;
+        height: auto;
+    }
+    p{
+        font-size: 5px;
+
+    }
+}
